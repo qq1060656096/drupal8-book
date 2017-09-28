@@ -35,5 +35,5 @@ class HelloController extends ControllerBase {
 }
 ```
 
-
+这段代码本身并不会做任何事，它需要一个路由文件来唤醒它。接下来我们给模块添加一个路由文件以激活这个控制器。
 
