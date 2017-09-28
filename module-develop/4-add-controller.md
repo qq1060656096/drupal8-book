@@ -6,11 +6,9 @@
 
 我们这个模块只是想输出hello world这样的字符串，需要在/src/Controller/HelloController.php文件中输入以下代码:
 
-
-
 **/modules/custom/hello\_world/src/Controller/HelloController.php**
 
-```
+```php
 <?php
 namespace Drupal\hello_world\Controller;
 
