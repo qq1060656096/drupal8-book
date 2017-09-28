@@ -1,23 +1,35 @@
-# 创建.info.yml文件,让drupal识别你的模块
+# 1. 命名和放置模块
 
-info.yml文件是drupal8 模块、主题、安装配置必须的文件，它提供了一个扩展\(Extend\)的基本信息描述  
-。主要包括模块、主题、安装配置，为用户管理界面提供信息，版本兼容性，以及其它的一些信息。
+我们使用“\*\*hello”\*\*作为模块的名字,来做示例演示
 
-### hello world模块的信息文件
+### 模块命名规则
 
-在hello world模块的根目录创建一个"**hello\_world.info.yml**"文件,并输入以下内容就drupal8就可以识别你的模块了:
+1. 必须以字母开头
 
-#### /modules/custom/hello\_world/hello\_world.info.yml
+2. 只能包含小写字母与下划线。
 
-```
-name: Hello World Module
-description:  Creates a page showing “Hello World”。
-package: Custom
-type: module
-core: 8.x
-```
+3. 必须唯一，不能与模块、主题、或配置文件重命。
 
-登录drupal8后台管理，点击**Extend**菜单进入模块列表，在搜索框中输入hello就搜索模块了
+4. 不能使用保留字:src、lib、vendor、assets、css、files、images、js、misc、templates、includes、fixtures、Drupal
 
-![](/assets/2.png)
+\*\*重要提示：\*\*确保不要在模块的机器名称中使用大写字母，因为Drupal将无法识别您的钩子实现。请参阅了解Drupal模块的挂钩系统。
+
+### 放置模块（未你的模块创建一个文件夹）
+
+我们使用"**hello\_world**"作为模块机器名
+
+鉴于我们选择的机器名称是“hello\_world”，请通过在Drupal安装中的路径：将模块放置到文件夹中，
+
+但通常最好为自己的模块设置一个专用的位置
+
+**/modules/custom/hello\_world**
+
+**/sites/all/modules/hello\_world**
+
+**/modules/hello\_world**
+
+这里在drupal8安装目录下创建\*\*/modules/custom/hello\_world  
+\*\*目录\(见下图\)。
+
+[![](https://github.com/qq1060656096/drupal8-book/raw/397333d14ba9291366a812c6aeef6f7b15378e83/assets/1.png)](https://github.com/qq1060656096/drupal8-book/blob/397333d14ba9291366a812c6aeef6f7b15378e83/assets/1.png)
 
