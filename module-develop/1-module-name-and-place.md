@@ -28,8 +28,7 @@
 
 **/modules/hello\_world**
 
-这里在drupal8安装目录下创建\*\*/modules/custom/hello\_world  
-\*\*目录\(见下图\)。
+这里在drupal8安装目录下创建**/modules/custom/hello\_world**目录\(见下图\)。
 
 [![](https://github.com/qq1060656096/drupal8-book/raw/397333d14ba9291366a812c6aeef6f7b15378e83/assets/1.png)](https://github.com/qq1060656096/drupal8-book/blob/397333d14ba9291366a812c6aeef6f7b15378e83/assets/1.png)
 
