@@ -22,16 +22,16 @@
 
 但通常最好为自己的模块设置一个专用的位置
 
-**/modules/custom/hello\_world  
+**/modules/custom/hello\_world    
 **
 
-**/sites/all/modules/hello\_world  
+**/sites/all/modules/hello\_world    
 **
 
-**/modules/hello\_world  
+**/modules/hello\_world    
 **
 
-这里在drupal8安装目录下创建**/modules/custom/hello\_world  
+这里在drupal8安装目录下创建**/modules/custom/hello\_world    
 **目录\(见下图\)。
 
 ![](/assets/1.png)
