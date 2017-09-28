@@ -16,7 +16,17 @@
 
 ### 放置模块（未你的模块创建一个文件夹）
 
-为你的模块创建一个文件夹
+我们使用"**hello\_world**"作为模块机器名
 
+鉴于我们选择的机器名称是“hello\_world”，请通过在Drupal安装中的路径：将模块放置到文件夹中，
 
+但通常最好为自己的模块设置一个专用的位置
+
+**/modules/custom/hello\_world**
+
+**/sites/all/modules/hello\_world**
+
+**/modules/hello\_world**
+
+这里在drupal8安装目录下创建**/modules/custom/hello\_world**目录。
 
