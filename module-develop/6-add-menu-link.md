@@ -15,3 +15,7 @@ hello_world.admin:
 
 
 
+**您已经将模块激活了，您将需要从用户界面清除站点的缓存或使用drush。如果没有，请继续激活它。admin/config/development/performance**
+
+**drush cache-rebuilddrush cr**
+
