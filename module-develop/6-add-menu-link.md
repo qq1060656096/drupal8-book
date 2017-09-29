@@ -4,3 +4,14 @@
 
 **/modules/custom/hello\_world/hello\_world.links.menu.yml**
 
+```
+hello_world.admin:
+  title: 'Hello module settings'
+  description: 'example of how to make an admin settings page link'
+  parent: system.admin_config_development
+  route_name: hello_world.content
+  weight: 100
+```
+
+
+
