@@ -18,9 +18,9 @@ hello_world.content:
 
 ![](/assets/6.png)
 
+**如果您已经将模块激活了，您将需要从用户界面清除站点的缓存或使用drush。如果没有，请继续激活它。admin/config/development/performance**
 
-
-**如果您已经将模块激活了，您将需要从用户界面清除站点的缓存或使用drush。如果没有，请继续激活它。admin/config/development/performancedrush cache-rebuilddrush cr**
+**drush cache-rebuilddrush cr**
 
 ## ![](/assets/3.png)清空缓存
 
