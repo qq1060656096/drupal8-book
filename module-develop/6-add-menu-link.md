@@ -13,9 +13,11 @@ hello_world.admin:
   weight: 100
 ```
 
-
-
 **您已经将模块激活了，您将需要从用户界面清除站点的缓存或使用drush。如果没有，请继续激活它。admin/config/development/performance**
 
 **drush cache-rebuilddrush cr**
+
+这将会在管理配置页面添加一个链接，该链接引用hello\_world.content的路由信息，需要清空缓存已使配置生效。清空缓存后，在管理配置页面开发部份将会看到”Hello module settings”菜单链接，单击这个链接，系统调用hello\_world模块。
+
+![](/assets/7.png)
 
