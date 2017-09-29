@@ -21,3 +21,25 @@ hello_world.admin:
 
 ![](/assets/7.png)
 
+
+
+**附加提示**
+
+该文件非常灵活。您还可以使用它链接到外部资源，或通过路径链接：.links.menu.yml
+
+```
+hello_world.admin:
+  title: 'Hello module settings'
+  description: 'example of how to make an admin settings page link'
+  parent: system.admin_config_development
+  url: http://example.com/this-is-some-example
+  weight: 100
+hello_world.admin2:
+  title: 'Hello module settings'
+  description: 'example of how to make an admin settings page link'
+  parent: system.admin_config_development
+  url: internal:/some-internal-path
+```
+
+
+
