@@ -25,7 +25,7 @@
 }
 ```
 
-### 2 执行composer命令
+### 2 安装composer\_manager模块
 
-composer update "wei/cards"
+https://www.drupal.org/project/composer\_manager/git-instructions
 
