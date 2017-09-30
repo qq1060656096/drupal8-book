@@ -2,11 +2,11 @@
 
 这里我们使用一个github上身份证解析库做演示
 
-https://github.com/qq1060656096/Cards.git
+[https://github.com/qq1060656096/Cards.git](https://github.com/qq1060656096/Cards.git)
 
 
 
-
+### 添加composer.json文件
 
 在你的模块根文件夹中，添加一个新文件"composer.json"添加一下内容:
 
@@ -27,5 +27,7 @@ https://github.com/qq1060656096/Cards.git
 }
 ```
 
+### 执行composer命令
 
+composer update "wei/cards"
 
