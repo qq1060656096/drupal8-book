@@ -41,9 +41,20 @@ php scripts/init.php
 
 ![](/assets/8.png)
 
-
-
 #### 4. 在Drupal目录的根目录运行composer drupal-update
 
 composer drupal-update
+
+
+
+
+
+### 在composer.json中定义一个依赖
+
+你可以在composer.json文件中为模块定义外部依赖。Drupal核心不会自动地发现并管理这些依赖。为了利用composer.json文件中定义的依赖，你需要使用以下维护方式:
+
+1. 使用composer安装Drupal核心以及模块
+2. 在Drupal安装的根目录下手工修改composer.json文件
+
+
 
