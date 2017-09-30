@@ -33,6 +33,8 @@
 
 git clone --branch 8.x-1.x [https://git.drupal.org/project/composer\_manager.git](https://git.drupal.org/project/composer_manager.git)
 
+2. 安装composer\_manager模块
+
 #### 2. 进入到composer\_manager目录
 
 cd composer\_manager
