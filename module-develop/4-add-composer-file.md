@@ -29,13 +29,11 @@
 
 [https://www.drupal.org/project/composer\_manager/git-instructions](https://www.drupal.org/project/composer_manager/git-instructions)
 
-
-
 #### 1. 使用git下载代码
 
-git clone --branch 8.x-1.x https://git.drupal.org/project/composer\_manager.git
+git clone --branch 8.x-1.x [https://git.drupal.org/project/composer\_manager.git](https://git.drupal.org/project/composer_manager.git)
 
-####  2. 进入到composer\_manager目录
+#### 2. 进入到composer\_manager目录
 
 cd composer\_manager
 
@@ -43,5 +41,7 @@ cd composer\_manager
 
 php scripts/init.php
 
+4.
 
+composer drupal-update
 
