@@ -41,7 +41,7 @@ cd composer\_manager
 
 php scripts/init.php
 
-4.
+#### 4. 在Drupal目录的根目录运行composer drupal-update
 
 composer drupal-update
 
