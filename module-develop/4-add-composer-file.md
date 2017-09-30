@@ -27,5 +27,21 @@
 
 ### 2 安装composer\_manager模块
 
-https://www.drupal.org/project/composer\_manager/git-instructions
+[https://www.drupal.org/project/composer\_manager/git-instructions](https://www.drupal.org/project/composer_manager/git-instructions)
+
+
+
+#### 1. 使用git下载代码
+
+git clone --branch 8.x-1.x https://git.drupal.org/project/composer\_manager.git
+
+####  2. 进入到composer\_manager目录
+
+cd composer\_manager
+
+#### 3. 执行脚本
+
+php scripts/init.php
+
+
 
