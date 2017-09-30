@@ -39,6 +39,10 @@ git clone --branch 8.x-1.x [https://git.drupal.org/project/composer\_manager.git
 
 php scripts/init.php
 
+![](/assets/8.png)
+
+
+
 #### 4. 在Drupal目录的根目录运行composer drupal-update
 
 composer drupal-update
