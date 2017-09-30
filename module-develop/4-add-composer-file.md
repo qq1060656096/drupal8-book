@@ -52,21 +52,31 @@ composer drupal-update
 1. 使用composer安装Drupal核心以及模块
 2. 在Drupal安装的根目录下手工修改composer.json文件
 
-
-
 # 如果出现以下错误
 
 \[Composer\Downloader\TransportException\]
 
-  The "https://packagist.drupal-composer.org/packages.json" file could not be downloaded: Peer certificate C
+The "[https://packagist.drupal-composer.org/packages.json](https://packagist.drupal-composer.org/packages.json)" file could not be downloaded: Peer certificate C
 
-  N=\`\*.github.com' did not match expected CN=\`packagist.drupal-composer.org'
+N=\`\*.github.com' did not match expected CN=\`packagist.drupal-composer.org'
 
-  Failed to enable crypto
+Failed to enable crypto
 
-  failed to open stream: operation failed
+failed to open stream: operation failed
 
 ![](/assets/9.png)
 
-是证书问题: http://blog.sina.com.cn/s/blog\_489988100102vt46.html
+是证书问题: [http://blog.sina.com.cn/s/blog\_489988100102vt46.html](http://blog.sina.com.cn/s/blog_489988100102vt46.html)
+
+
+
+以前都在linux环境使用php composer。今天尝试在win7下运行composer却出现SSL报错：
+
+没有安装CA证书导致的！！！
+
+CA证书下载地址：http://curl.haxx.se/docs/caextract.html
+
+然后修改php.ini文件
+
+openssl.cafile= D:/wamp/php/verify/cacert.pem
 
