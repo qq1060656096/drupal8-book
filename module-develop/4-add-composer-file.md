@@ -45,10 +45,6 @@ php scripts/init.php
 
 composer drupal-update
 
-
-
-
-
 ### 在composer.json中定义一个依赖
 
 你可以在composer.json文件中为模块定义外部依赖。Drupal核心不会自动地发现并管理这些依赖。为了利用composer.json文件中定义的依赖，你需要使用以下维护方式:
@@ -57,4 +53,20 @@ composer drupal-update
 2. 在Drupal安装的根目录下手工修改composer.json文件
 
 
+
+# 如果出现以下错误
+
+\[Composer\Downloader\TransportException\]
+
+  The "https://packagist.drupal-composer.org/packages.json" file could not be downloaded: Peer certificate C
+
+  N=\`\*.github.com' did not match expected CN=\`packagist.drupal-composer.org'
+
+  Failed to enable crypto
+
+  failed to open stream: operation failed
+
+![](/assets/9.png)
+
+是证书问题: http://blog.sina.com.cn/s/blog\_489988100102vt46.html
 
