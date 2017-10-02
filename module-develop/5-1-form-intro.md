@@ -1,6 +1,6 @@
 # 5.1 表单介绍
 
-来自: https://www.drupal.org/node/2117411
+来自: [https://www.drupal.org/node/2117411](https://www.drupal.org/node/2117411)
 
 表单类实现\Drupal\Core\Form\FormInterface和一种形式的基本工作是由定义buildForm，validateForm和submitForm接口的方法。当请求表单时，
 
@@ -122,4 +122,32 @@ public function submitForm(array &$form, FormStateInterface $form_state) {
 ```
 
 这是处理提交的表单数据的一个非常简单的例子。对于更复杂的例子来看看扩展FormBase在核心的一些类。
+
+
+
+### HTML5格式渲染元素
+
+HTML5元素是：
+
+* '\#type' =&gt; 'tel'
+* '\#type' =&gt; 'email'
+* '\#type' =&gt; 'number'
+* '\#type' =&gt; 'date'
+* '\#type' =&gt; 'url'
+* '\#type' =&gt; 'search'
+* '\#type' =&gt; 'range'
+
+使用这些元素而不是在纯文本域中请求数据是相反的，因为设备可以为其提供适当的输入方法，例如当请求电话号码时，键盘屏幕将显示在设备上。
+
+其他有用的渲染元素
+
+细节：元素是一个具有摘要的分组元素。'\#type' =&gt; 'details'
+
+language\_select：该元素是一种语言选择器，可以方便地将语言配置放在窗体上。'\#type' =&gt; 'language\_select'
+
+dropbutton：提供一个带有按钮的通用选择列表。另见元素。'\#type' =&gt; 'dropbutton''\#type' =&gt; 'operations'
+
+操作：'\#type' =&gt; 'operations'该元素提供可用操作的列表，您可以在实体配置管理屏幕中通常找到，例如admin/structure/types。
+
+查看所有核心提供的元素的命名空间Drupal\Core\Render\Element。
 
