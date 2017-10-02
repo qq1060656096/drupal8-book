@@ -10,6 +10,6 @@
     * [3.3 添加菜单链接](module-develop/3-add-custom-page/3.3-add-menu-link.md)
   * [4. 添加composer.json文件](module-develop/4-add-composer-file.md)
   * [5. 表单使用](module-develop/5-use-form.md)
-    * [5-1-create-form](module-develop/5-add-form/5.1-create-form.md)
+    * [5-1-create-form](module-develop/5-use-form/5.1-create-form.md)
 * [主题开发](zhu-ti-kai-fa.md)
 
