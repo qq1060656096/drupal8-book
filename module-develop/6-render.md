@@ -1,6 +1,6 @@
 # 6. 渲染系统
 
-https://www.drupal.org/docs/8/api/render-api
+[https://www.drupal.org/docs/8/api/render-api](https://www.drupal.org/docs/8/api/render-api)
 
 Drupal的渲染系统大概由两个部份组成:
 
@@ -11,13 +11,11 @@ Drupal通过渲染系统将用户的请求转换成HTML响应传送给用户，D
 
 6.1 渲染数组与缓存
 
-6.2 Drupal怎样使用缓存优化渲染
+6.2 可冒泡的元数据
 
-6.3 可冒泡的元数据
+6.3 自动占位符
 
-6.4 自动占位符
+6.4 Drupal 8 渲染管线
 
-6.5 Drupal 8 渲染管线
-
-6.6 渲染数组
+6.5 渲染数组
 
