@@ -1,5 +1,7 @@
 # 6. 渲染系统
 
+https://www.drupal.org/docs/8/api/render-api
+
 Drupal的渲染系统大概由两个部份组成:
 
 1. 渲染管线----支持常见格式\(HTML,json,以及其它\)
