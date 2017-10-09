@@ -17,5 +17,6 @@
     * [6.2 可冒泡的元数据](module-develop/6-render/62-bubble-able-metadata.md)
     * [6.3 自动占位符](module-develop/6-render/63-auto-placeholder.md)
     * [6.4 Drupal 8 渲染管线](module-develop/6-render/64-drupal8-render-pipeline.md)
+    * [6.5 渲染数组](module-develop/6-render/65-render-array.md)
 * [主题开发](zhu-ti-kai-fa.md)
 
