@@ -1,4 +1,4 @@
-# 6. 渲染系统
+# [6. 渲染系统](/module-develop/6-render.md)6. 渲染系统
 
 [https://www.drupal.org/docs/8/api/render-api](https://www.drupal.org/docs/8/api/render-api)
 
