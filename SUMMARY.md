@@ -12,5 +12,6 @@
   * [5. 表单使用](module-develop/5-use-form.md)
     * [5.1 表单介绍](module-develop/5-1-form-intro.md)
     * [5.2 创建表单](module-develop/5-use-form/5.1-create-form.md)
+  * [6.render](module-develop/6render.md)
 * [主题开发](zhu-ti-kai-fa.md)
 
