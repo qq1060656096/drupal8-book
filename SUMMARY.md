@@ -13,6 +13,7 @@
     * [5.1 表单介绍](module-develop/5-use-form/5.1-form-intro.md)
     * [5.2 创建表单](module-develop/5-use-form/5.1-create-form.md)
   * [6. 渲染系统](module-develop/6-render.md)
-    * [6.1-render-array-and-cache](module-develop/6-render/61-render-array-and-cache.md)
+    * [6.1 渲染数组与缓存](module-develop/6-render/6.1-render-array-and-cache.md)
+    * [6.2 Drupal怎样使用缓存优化渲染](module-develop/6-render/62.md)
 * [主题开发](zhu-ti-kai-fa.md)
 
