@@ -1,6 +1,7 @@
 # Summary
 
 * [简介](README.md)
+* [主题开发入门](theme-develop.md)
 * [模块开发入门](module-develop.md)
   * [1. 命名和放置模块](module-develop/1-module-name-and-place.md)
   * [2. 添加.info.yml文件](module-develop/2-add-info-yml.md)
@@ -19,5 +20,4 @@
     * [6.4 Drupal 8 渲染管线](module-develop/6-render/64-drupal8-render-pipeline.md)
     * [6.5 渲染数组](module-develop/6-render/65-render-array.md)
   * [7. 从自定义模块创建自定义模板](module-develop/7-module-add-custom-template.md)
-* [主题开发入门](theme-develop.md)
 
