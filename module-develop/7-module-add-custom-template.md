@@ -35,8 +35,6 @@ hook\_theme
 </div>
 ```
 
-
-
 ### **2.接下来，在/modules/custom/hello\_world/src/Controller/HelloController.php类中添加customTemplate\(\)方法           **
 
 ```php
@@ -67,9 +65,9 @@ hello_world.custom-template:
     _access: 'TRUE'
 ```
 
-**4.清空缓存**
+### **4.清空缓存**
 
-**5.访问页面**
+### **5.访问页面**
 
 [http://domain/custom-template](https://www.gitbook.com/book/qq1060656096/drupal8-book/edit#)
 
