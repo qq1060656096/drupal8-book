@@ -10,9 +10,9 @@ hook\_theme
 
 这样做的好处是，如果您的主题中不存在这样的文件，模块中定义的模板文件将被使用。只需将文件转储到主题的/templates文件夹中，清除缓存缓存，它就会读取该文件。
 
-1.在模块根目录下创建templates目录，这个目录用于存放定义的twig模板文件my-template.html.twig
+### **1.在模块根目录下创建templates目录，这个目录用于存放定义的twig模板文件my-template.html.twig**
 
-/modules/custom/hello\_world/templates/my-template.html.twig
+### /modules/custom/hello\_world/templates/my-template.html.twig
 
 ```
 {#
@@ -35,10 +35,9 @@ hook\_theme
 </div>
 ```
 
-### /modules/custom/hello\_world/templates
 
-**2.接下来，在/modules/custom/hello\_world/src/Controller/HelloController.php类中添加customTemplate\(\)方法          
-**
+
+### **2.接下来，在/modules/custom/hello\_world/src/Controller/HelloController.php类中添加customTemplate\(\)方法           **
 
 ```php
 /**
@@ -56,7 +55,7 @@ public function customTemplate()
 }
 ```
 
-**3.为了能访问这一个页面，我们将会在模块目录下创建一个路由文件\(hello\_world.routing.yml\)。在文件中定义一个路由来通知Drupal使用显示我们的页面。代码如下:**
+### **3. 为了能访问这一个页面，我们将会在模块目录下创建一个路由文件\(hello\_world.routing.yml\)。在文件中定义一个路由来通知Drupal使用显示我们的页面。代码如下:**
 
 ```markdown
 hello_world.custom-template:
@@ -73,6 +72,8 @@ hello_world.custom-template:
 **5.访问页面**
 
 [http://domain/custom-template](https://www.gitbook.com/book/qq1060656096/drupal8-book/edit#)
+
+![](/assets/12.png)
 
 ### 演示代码文件
 
