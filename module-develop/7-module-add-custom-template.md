@@ -2,7 +2,7 @@
 
 hook\_theme
 
-https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Render%21theme.api.php/function/hook\_theme/8.4.x
+此钩子声明的实现将指定特定渲染数组如何渲染为HTML。
 
-
+[https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Render!theme.api.php/function/hook\_theme/8.4.x](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Render!theme.api.php/function/hook_theme/8.4.x)
 
