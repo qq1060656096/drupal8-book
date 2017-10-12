@@ -37,7 +37,7 @@ hook\_theme
 
 ### /modules/custom/hello\_world/templates
 
-**2.接下来，在/modules/custom/hello\_world/src/Controller/HelloController.php类中添加customTemplate\(\)方法      
+**2.接下来，在/modules/custom/hello\_world/src/Controller/HelloController.php类中添加customTemplate\(\)方法        
 **
 
 ```php
@@ -143,7 +143,7 @@ class HelloController extends ControllerBase {
 
 /modules/custom/hello\_world/hello\_world.routing.yml
 
-```
+```js
 hello_world.content:
   path: '/hello'
   defaults:
