@@ -10,15 +10,14 @@ hook\_theme
 
 这样做的好处是，如果您的主题中不存在这样的文件，模块中定义的模板文件将被使用。只需将文件转储到主题的/templates文件夹中，清除缓存缓存，它就会读取该文件。
 
+\*\*1.在模块根目录下创建templates目录，这个目录用于存放定义的twig模板文件。
 
-
-**1.在模块根目录下创建templates目录，这个目录用于存放定义的twig模板文件。**
+\*\*
 
 ### /modules/custom/hello\_world/templates
 
-
-
-**2.接下来，在/modules/custom/hello\_world/src/Controller/HelloController.php类中添加customTemplate\(\)方法**
+**2.接下来，在/modules/custom/hello\_world/src/Controller/HelloController.php类中添加customTemplate\(\)方法  
+**
 
 ```php
 /**
@@ -26,13 +25,13 @@ hook\_theme
  */
 public function customTemplate()
 {
-	return [
-		'#theme' => 'my_test',
-		'#source_text' => [
-			'hello_world模块',
-			$this->t('Test Value')
-		],
-	];
+    return [
+        '#theme' => 'my_test',
+        '#source_text' => [
+            'hello_world模块',
+            $this->t('Test Value')
+        ],
+    ];
 }
 ```
 
@@ -51,4 +50,6 @@ hello_world.custom-template:
 **4.清空缓存**
 
 **5.访问页面**
+
+[http://domain/custom-template](https://www.gitbook.com/book/qq1060656096/drupal8-book/edit#)
 
