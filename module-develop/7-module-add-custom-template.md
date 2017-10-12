@@ -37,7 +37,7 @@ hook\_theme
 
 ### /modules/custom/hello\_world/templates
 
-**2.接下来，在/modules/custom/hello\_world/src/Controller/HelloController.php类中添加customTemplate\(\)方法        
+**2.接下来，在/modules/custom/hello\_world/src/Controller/HelloController.php类中添加customTemplate\(\)方法          
 **
 
 ```php
@@ -58,7 +58,7 @@ public function customTemplate()
 
 **3.为了能访问这一个页面，我们将会在模块目录下创建一个路由文件\(hello\_world.routing.yml\)。在文件中定义一个路由来通知Drupal使用显示我们的页面。代码如下:**
 
-```asciidoc
+```markdown
 hello_world.custom-template:
   path: '/custom-template'
   defaults:
@@ -143,7 +143,7 @@ class HelloController extends ControllerBase {
 
 /modules/custom/hello\_world/hello\_world.routing.yml
 
-```js
+```markdown
 hello_world.content:
   path: '/hello'
   defaults:
