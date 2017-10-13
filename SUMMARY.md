@@ -21,4 +21,5 @@
     * [6.5 渲染数组](module-develop/6-render/65-render-array.md)
   * [7. 从自定义模块创建自定义模板](module-develop/7-module-add-custom-template.md)
   * [8. 添加css和js](module-develop/8add-css-and-js.md)
+  * [9.use-phpunit-testing](module-develop/9use-phpunit-testing.md)
 
