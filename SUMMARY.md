@@ -20,5 +20,5 @@
     * [6.4 Drupal 8 渲染管线](module-develop/6-render/64-drupal8-render-pipeline.md)
     * [6.5 渲染数组](module-develop/6-render/65-render-array.md)
   * [7. 从自定义模块创建自定义模板](module-develop/7-module-add-custom-template.md)
-  * [8.add-css-and-js](module-develop/8add-css-and-js.md)
+  * [8. 添加css和js](module-develop/8add-css-and-js.md)
 
