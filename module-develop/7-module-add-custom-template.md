@@ -6,7 +6,7 @@ hook\_theme
 
 [https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Render!theme.api.php/function/hook\_theme/8.4.x](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Render!theme.api.php/function/hook_theme/8.4.x)
 
-https://www.drupal.org/docs/8/creating-custom-modules/theming
+[https://www.drupal.org/docs/8/creating-custom-modules/theming](https://www.drupal.org/docs/8/creating-custom-modules/theming)
 
 在模块根目录下templates模板文件夹的内部创建twig模板。文件的名称必须与您所输入的内容相匹配,文件名将是my-template.html.twig。以下是我用来测试的文件：hook\_theme\(\)
 
