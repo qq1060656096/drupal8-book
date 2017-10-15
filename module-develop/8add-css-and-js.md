@@ -63,6 +63,5 @@ alert('hello_world_module_test.js');
 ### 6.访问页面
 http://domain/custom-template
 
-
-
+![](/assets/13.png)
 
