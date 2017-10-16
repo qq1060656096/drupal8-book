@@ -1,5 +1,7 @@
 ### 模块开发入门概览
 
+https://www.drupal.org/docs/8/creating-custom-modules
+
 1. 命名和放置模块
 2. 创建.info.yml文件,让drupal识别你的模块
 3. 添加自定义页面
@@ -9,10 +11,6 @@
 7. 从自定义模块中创建自定义模板
 8. 添加css和js
 9. 使用phpunit单元测试
-
-
-
-
 
 ---
 
