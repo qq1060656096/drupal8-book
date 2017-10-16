@@ -24,7 +24,7 @@ hello_world:
 }
 ```
 
-**/modules/custom/hello\_world/css/hello\_world\_module\_test.js**
+**/modules/custom/hello\_world/js/hello\_world\_module\_test.js**
 
 ```js
 alert('hello_world_module_test.js');
