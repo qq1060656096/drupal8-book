@@ -2,12 +2,10 @@
 
 ### 1. 在模块根目录下创建hello\_world.libraries.yml文件
 
-
-
-**/modules/custom/hello\_world/hello\_world.libraries.yml**
+**/modules/custom/hello\_world/hello\_world.libraries.yml**
 
 ```
-hello_world:
+hello_world:
   version: 1.x
   css:
     theme:
@@ -18,26 +16,26 @@
 
 ### 2. 添加css和js文件
 
-**/modules/custom/hello\_world/css/hello\_world\_module\_test.css**
+**/modules/custom/hello\_world/css/hello\_world\_module\_test.css**
 
 ```css
-.hello_world{
+.hello_world{
     color: red;
 }
 ```
 
-**/modules/custom/hello\_world/css/hello\_world\_module\_test.js**
+**/modules/custom/hello\_world/css/hello\_world\_module\_test.js**
 
 ```js
-alert('hello_world_module_test.js');
+alert('hello_world_module_test.js');
 ```
 
 ### 3. 在twig模板中附加一个外部js和css库
 
-**/modules/custom/hello\_world/templates/my-template.html.twig**
+**/modules/custom/hello\_world/templates/my-template.html.twig**
 
 ```markdown
-{#
+{#
 /**
 * @file
 * Default theme implementation to print Lorem ipsum text.
@@ -53,23 +51,19 @@
 {{ attach_library('hello_world/hello_world') }}
 
 <div class="hello_world">
-    {% for item in source_text %}      
+    {% for item in source_text %}
         <p>
-        {{ item }}
+            {{ item }}
         </p>
     {% endfor %}
 </div>
 ```
 
-
-
 ### 4. 清空缓存
-
-
 
 ### 5. 访问页面
 
-http://domain/custom-template
+[http://domain/custom-template](http://domain/custom-template)
 
 ![](/assets/13.png)
 
