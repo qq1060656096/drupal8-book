@@ -25,4 +25,5 @@
   * [9. 使用测试](module-develop/9-use-testing.md)
   * [10. 数据库api](module-develop/10-db-api.md)
     * [10.1 数据库api概述](module-develop/10-db-api/10.1-db-api-overview.md)
+    * [10.2-db-config](module-develop/10-db-api/102-db-config.md)
 
