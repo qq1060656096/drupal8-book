@@ -26,4 +26,5 @@
   * [10. 数据库api](module-develop/10-db-api.md)
     * [10.1 数据库api概述](module-develop/10-db-api/10.1-db-api-overview.md)
     * [10.2 数据库配置](module-develop/10-db-api/10.2-db-config.md)
+    * [10.3-db-connection](module-develop/10-db-api/103-db-connection.md)
 
